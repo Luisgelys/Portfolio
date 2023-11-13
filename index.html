@@ -6,52 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="reset.css">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div>
-            <a href="index.html"><h1><img src="Imagenes/Logo.png" alt="Logo"></h1></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="hoja.html">Hoja de vida</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+        <div class="barra">
+            <a href="index.html">
+                <h1><img src="Imagenes/Logo.png" alt="Logo" class="logo"></h1>
+            </a>
         </div>
+        <nav>
+            <ul class="navs">
+                <li><a href="index.html">Proyectos</a></li>
+                <li><a href="hoja.html">Hoja de vida</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div>
-        <img src="Imagenes/Foto de perfil.png" alt="Foto perfil">
+    <div class="caja-perfil">
+        <img src="Imagenes/Foto de perfil.png" alt="Foto perfil" class="perfil">
 
-        <h1>¡Hola, Soy Luisgelys Avila!</h1>
-        <p>Desarrolladora web / Diseñadora UX</p>
-        <p>Inicié mis estudios y experiencia laboral en el área de la salud como Enfermera intensivista. Actualmente,
-            trabajo para un call center como Analista de calidad. Soy amante de la tecnología. He ido ingresando al
-            mundo
-            del desarrollo web con autoaprendizajes y cursos de Diseño UX, Desarrollo front y back end. Me caracteriza
-            la
-            determinación para alcanzar mis metas, me adapto fácilmente al entorno, me gusta trabajar en equipo, tener
-            iniciativa y dar siempre lo mejor de mi.</p>
+        <div class="acerca">
+            <h1>¡Hola, Soy Luisgelys Avila!</h1>
+            <p>Desarrolladora web / Diseñadora UX</p>
+            <p>Inicié mis estudios y experiencia laboral en el área de la salud como Enfermera intensivista.
+                Actualmente,
+                trabajo para un call center como Analista de calidad. Soy amante de la tecnología. He ido ingresando al
+                mundo
+                del desarrollo web con autoaprendizajes y cursos de Diseño UX, Desarrollo front y back end. Me
+                caracteriza
+                la
+                determinación para alcanzar mis metas, me adapto fácilmente al entorno, me gusta trabajar en equipo,
+                tener
+                iniciativa y dar siempre lo mejor de mi.</p>
             <button>Contactame</button>
+        </div>
+
+
     </div>
 
-    <div>
-        <a href="amankay.html"><img src="Imagenes/Amankay.png" alt="Amankay"></a>
-        <a href="adopme.html"><img src="Imagenes/Adopme.png" alt="Adopme"></a>
-        <a href="dosimec.html"><img src="Imagenes/Dosimec.PNG" alt="Dosimec"></a>
+    <div class="proyectos">
+        <div class="texto">
+            <a href="amankay.html"><img src="Imagenes/Amankay.png" alt="Amankay" class="proyec"></a>
+            <h1>Amankay</h1>
+            <p>Noviembre 2023</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
+                montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
+                nascetur porttitor senectus id non commodo neque, aliquam ac dignissim parturient quis magna pharetra,
+                primis ad eros egestas varius rutrum. Hac interdum sem euismod velit dictumst in fringilla dapibus
+                integer, mus erat aptent justo porta et commodo etiam, varius nullam convallis quisque cum leo orci
+                maecenas.</p>
+
+        </div>
+
+        <div class="texto">
+            <a href="adopme.html"><img src="Imagenes/Adopme.png" alt="Adopme" class="proyec"></a>
+            <h1>Adopme</h1>
+            <p>Octubre 2023</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
+                montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
+                nascetur porttitor senectus id non commodo neque, aliquam ac dignissim parturient quis magna pharetra,
+                primis ad eros egestas varius rutrum. Hac interdum sem euismod velit dictumst in fringilla dapibus
+                integer, mus erat aptent justo porta et commodo etiam, varius nullam convallis quisque cum leo orci
+                maecenas.</p>
+        </div>
+
+        <div class="texto">
+            <a href="dosimec.html"><img src="Imagenes/Dosimec.PNG" alt="Dosimec" class="proyec"></a>
+            <h1>Dosimec</h1>
+            <p>Septiembre 2023</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
+                montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
+                nascetur porttitor senectus id non commodo neque, aliquam ac dignissim parturient quis magna pharetra,
+                primis ad eros egestas varius rutrum. Hac interdum sem euismod velit dictumst in fringilla dapibus
+                integer, mus erat aptent justo porta et commodo etiam, varius nullam convallis quisque cum leo orci
+                maecenas.</p>
+        </div>
+
     </div>
 
 </body>
 <footer>
     <img src="Imagenes/Logo.png" alt="Logo">
-    <ul>
-        <li><a href="https://www.linkedin.com/in/luisgelysavila/"><img src="Imagenes/linkedin.png" alt="Linkenind"></a></li>
+    <ul class="redes">
+        <li><a href="https://www.linkedin.com/in/luisgelysavila/"><img src="Imagenes/linkedin.png" alt="Linkenind"></a>
+        </li>
         <li><a href="https://github.com/Luisgelys"><img src="Imagenes/github.png" alt="Github"></a></li>
     </ul>
-    <p>&copy Copyright Luisgelys Avila - 2023</p>
+    <p class="copyrigth">&copy Copyright Luisgelys Avila - 2023</p>
 </footer>
 
 </html>

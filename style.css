@@ -1,0 +1,124 @@
+html {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #6b6868;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.navs {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #EA2027;
+    text-decoration: double;
+}
+
+.caja-perfil {
+    display: flex;
+}
+
+.perfil {
+    width: 35%;
+    padding: 30px;
+}
+
+.acerca {
+    width: 65%;
+    padding: 30px;
+    margin: 9px 15px;
+}
+
+button {
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    background: #EA2027;
+    border: none;
+    border-radius: 50px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.texto {
+    width: auto;
+    padding: 30px;
+    display: flex;
+}
+
+.proyec {
+    padding: 30px;
+    height: 350px;
+    width: 400px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.texto {
+    padding: 30px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.redes {
+    height: 20px;
+    width: auto;
+}
+.copyrigth {
+    color: #bbbbbb;
+    font-size: 13px;
+    margin: 20px;
+}
