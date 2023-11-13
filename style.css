@@ -1,6 +1,7 @@
 html {
     font-family: 'Urbanist', sans-serif;
     font-size: 20px;
+    color:whitesmoke;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,13 +13,28 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-1 {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.subtitulo {
+    margin-bottom: 15px;
+}
+
 header {
     background-color: black;
     display: flex;
     padding: 15px;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 80px;
 }
 
 .logo {
@@ -26,7 +42,7 @@ header {
     width: auto;
     transition: all 0.3s;
     cursor: pointer;
-    margin-left: 40px;
+    margin: 20px 0px 10px 60px;
 }
 
 .logo:hover{
@@ -35,7 +51,7 @@ header {
 
 .navs {
     list-style: none;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 nav li {
@@ -62,17 +78,26 @@ nav a:hover{
 
 .caja-perfil {
     display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .perfil {
+    display: flex;
     width: 35%;
-    padding: 30px;
+    margin: 50px 50px 50px 80px;
+}
+
+.saludo {
+    font-size: 50px;
 }
 
 .acerca {
     width: 65%;
-    padding: 30px;
-    margin: 9px 15px;
+    margin: 9px 80px 0px 0px;
+    text-align: justify;
 }
 
 button {
@@ -81,15 +106,27 @@ button {
     background: #EA2027;
     border: none;
     border-radius: 50px;
-    padding: 9px 25px;
+    padding: 15px 45px;
     cursor: pointer;
     margin-top: 30px;
+    font-size: 20px;
 }
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .texto {
     width: auto;
-    padding: 30px;
     display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 9px 80px 0px 0px;
+
 }
 
 .proyec {
@@ -97,11 +134,11 @@ button {
     height: 350px;
     width: 400px;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
-.texto {
-    padding: 30px;
+.parrafo {
+    text-align: justify;
 }
 
 footer {
@@ -113,9 +150,20 @@ footer {
     height: 200px;
 }
 
-.redes {
-    height: 20px;
+.logo2 {
+    height: 85%;
     width: auto;
+    margin: 0 40px;
+}
+
+.redes li{
+    display: inline-block;
+}
+
+.redes img{
+    height: 50px;
+    width: auto;
+    padding: 10px;
 }
 .copyrigth {
     color: #bbbbbb;
