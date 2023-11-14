@@ -26,6 +26,16 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+
+        <a onclick="openNav()" href="#" class="menu"><button>Menú</button></a>
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Proyectos</a>
+                <a href="hoja.html">Hoja de vida</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
     </header>
 
     <div class="caja-perfil">
@@ -48,7 +58,7 @@
         <div class="texto">
             <a href="amankay.html"><img src="Imagenes/Amankay.png" alt="Amankay" class="proyec"></a>
             <div class="parrafo">
-                <h1>Amankay</h1>
+                <a href="amankay.html"><h1>Amankay</h1></a>
                 <p class="subtitulo">Noviembre 2023</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
                     montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
@@ -63,7 +73,7 @@
         <div class="texto">
             <a href="adopme.html"><img src="Imagenes/Adopme.png" alt="Adopme" class="proyec"></a>
             <div class="parrafo">
-                <h1>Adopme</h1>
+                <a href="adopme.html"><h1>Adopme</h1></a>
                 <p class="subtitulo">Octubre 2023</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
                     montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
@@ -78,7 +88,7 @@
         <div class="texto">
             <a href="dosimec.html"><img src="Imagenes/Dosimec.PNG" alt="Dosimec" class="proyec"></a>
             <div class="parrafo">
-                <h1>Dosimec</h1>
+                <a href="dosimec.html"><h1>Dosimec</h1></a>
                 <p class="subtitulo">Septiembre 2023</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
                     montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
@@ -89,9 +99,11 @@
                     maecenas.</p>
             </div>
         </div>
-
     </div>
 
+    <script type="text/javascript" src="nav.js">
+
+    </script>
 </body>
 <footer>
     <img src="Imagenes/Logo.png" alt="Logo" class="logo2">

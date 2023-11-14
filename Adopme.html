@@ -1,34 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopme</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <div>
-            <a href="index.html"><h1><img src="Imagenes/Logo.png" alt="Logo"></h1></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="hoja.html">Hoja de vida</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+        <div class="barra">
+            <a href="index.html">
+                <h1><img src="Imagenes/Logo.png" alt="Logo" class="logo"></h1>
+            </a>
+        </div>
+        <nav>
+            <ul class="navs">
+                <li><a href="index.html">Proyectos</a></li>
+                <li><a href="hoja.html">Hoja de vida</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a onclick="openNav()" href="#" class="menu"><button>Menú</button></a>
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Proyectos</a>
+                <a href="hoja.html">Hoja de vida</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
         </div>
     </header>
-    
-</body>
 
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed fermentum per, mi erat lectus quis a odio
+        montes fusce dapibus, sem urna tristique phasellus diam pulvinar hendrerit nibh faucibus. Consequat
+        nascetur porttitor senectus id non commodo neque, aliquam ac dignissim parturient quis magna
+        pharetra,
+        primis ad eros egestas varius rutrum. Hac interdum sem euismod velit dictumst in fringilla dapibus
+        integer, mus erat aptent justo porta et commodo etiam, varius nullam convallis quisque cum leo orci
+        maecenas.</p>
+
+
+    <script type="text/javascript" src="nav.js">
+
+    </script>
+</body>
 <footer>
-    <img src="Imagenes/Logo.png" alt="Logo">
-    <ul>
-        <li><a href="https://www.linkedin.com/in/luisgelysavila/"><img src="Imagenes/linkedin.png" alt="Linkenind"></a></li>
+    <img src="Imagenes/Logo.png" alt="Logo" class="logo2">
+    <ul class="redes">
+        <li><a href="https://www.linkedin.com/in/luisgelysavila/"><img src="Imagenes/linkedin.png" alt="Linkenind"></a>
+        </li>
         <li><a href="https://github.com/Luisgelys"><img src="Imagenes/github.png" alt="Github"></a></li>
     </ul>
-    <p>&copy Copyright Luisgelys Avila - 2023</p>
+    <div>
+        <p class="copyrigth">&copy Copyright Luisgelys Avila - 2023</p>
+    </div>
 </footer>
 
 </html>
