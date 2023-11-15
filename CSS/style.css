@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 h1 {
@@ -439,5 +440,63 @@ header a {
     transition: all 500ms ease;
 }
 
+/*Contacto*/
 
+.form {
+    display: flex;
+    height: 400px;
+    width: 50%;
+    margin: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
 
+.aside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+
+.aside div h1 {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    height: 60px;
+    width: auto;
+    margin: 15px 0px 0px 0px;
+    background:#EA2027;
+    border-radius: 25px 25px 0px 0px;
+}
+
+form p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0px 20px 0px;
+    background: black;
+}
+
+form p input {
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+    width: 80%;
+}
+
+.enviar {
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin: 15px 0px 20px 0px;
+    width: 50%;
+    background: #EA2027;
+    color: white;
+}
+
+.enviar:hover{
+    scale: 1.1;
+
+}
+
+.btn-externo {
+    border-radius: 0px 0px 25px 25px;
+}
