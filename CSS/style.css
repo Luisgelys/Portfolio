@@ -1,10 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 html {
     font-family: 'Urbanist', sans-serif;
     font-size: 1.2rem;
     color: whitesmoke;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -12,8 +17,8 @@ body {
     background: #6b6868;
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     align-items: center;
 }
 
@@ -39,7 +44,8 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    width: 100%;
+    width: 97.5%;
+    margin: 0px;
 }
 
 .logo {
@@ -56,7 +62,7 @@ header {
 
 .navs {
     list-style: none;
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 nav li {
@@ -88,7 +94,6 @@ nav a {
 
 nav a:hover {
     color: #EA2027;
-    text-decoration: double;
 }
 
 .caja-perfil {
@@ -135,7 +140,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 0 70px 40px;
+    margin: 0px 70px 40px;
 }
 
 .texto {
@@ -216,13 +221,13 @@ footer {
     align-items: center;
     height: 200px;
     width: 100%;
-    padding: 15px;
+    margin: 0px;
 }
 
 .logo2 {
     height: 120px;
     width: auto;
-    margin: 0 70px;
+    margin-left: 70px;
 }
 
 .redes ul {
@@ -239,7 +244,7 @@ footer {
 .copyrigth {
     color: #bbbbbb;
     font-size: 0.7rem;
-    margin: 90px;
+    margin-right: 70px;
 }
 
 @media screen and (max-width: 700px) {
@@ -430,7 +435,6 @@ header a {
         font-size: 40px;
         top: 15px;
         right: 35px;
-
     }
 }
 
@@ -530,8 +534,62 @@ form p input {
 
     form p {
         font-size: 1.3rem;
-    }
+    }   
+}
 
+/*Amankay*/
 
-    
+.amankay {
+    margin-top: 40px;
+    font-size: 3rem;
+}
+
+.div-uno {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    margin: 25px 60px;
+}
+
+.img-uno {
+    height: 300px;
+    width: auto;
+    margin-left: 40px;
+}
+
+.subtitulo-uno {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.p-uno {
+    margin: 0px 40px;
+    font-size: 1.3rem;
+}
+
+.img-dos{
+    height: 450px;
+    width: auto;
+    margin-right: 40px;
+}
+
+.img-tres{
+    height: 450px;
+    width: auto;
+    margin-left: 40px;
+}
+
+.img-cuatro{
+    height: 550px;
+    width: auto;
+    margin-right: 40px;
+}
+
+.iframe{
+    display: flex;
+    height: 800px;
+    width: auto;
 }
